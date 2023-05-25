@@ -1,0 +1,3 @@
+displayName = Halal
+author = Red Gaming
+version = 0.1

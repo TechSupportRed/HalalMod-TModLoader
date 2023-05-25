@@ -1,0 +1,24 @@
+Mods: {
+		HalalMod: {
+				TownNPCMood: {
+						Shelby: {
+							Content: where is my shelby's canada workplace environment for me to be able to manage a consumer market
+							NoHome: YA ABBAS, im homeless pls help
+							FarFromHome: help me i forgot za bebsi at home
+							LoveSpace: My friend! Thank you for za space
+							DislikeCrowded: Yahamar, I hate people putting za ketchup on za shawarma
+							HateCrowded: Ehhhh... I am surrounded by stubid idiots
+							LoveBiome: I love za {BiomeName}.
+							LikeBiome: I like za {BiomeName}.
+							DislikeBiome: I dislike za {BiomeName}.
+							HateBiome: I hate za {BiomeName}.
+							LoveNPC: I love za {NPCName}.
+							LikeNPC: I like za {NPCName}.
+							DislikeNPC: I dislike za {NPCName}.
+							HateNPC: I hate za {NPCName}.
+							LikeNPC_Princess: I like za {NPCName}.
+							Princess_LovesNPC: I like za {NPCName}.
+						}
+				}
+		}
+}
