@@ -7,7 +7,7 @@ namespace HalalMod
 {
 	public class GlobalPlayer : ModPlayer
 	{
-        public bool ExplosionVest = false
+        public bool ExplosionVest = false;
         public float stickyDamage = 0f;
 
         public override void ProcessTriggers(TriggersSet triggersSet)
