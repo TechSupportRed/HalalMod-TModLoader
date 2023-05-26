@@ -79,8 +79,8 @@ namespace HalalMod.NPCs
 
         public override string GetChat()
         {
-            NPC.FindFirstNPC(ModContent.NPCType<Shelby>());
-            Main.LocalPlayer.AddBuff(BuffID.Regeneration, 1800);
+            NPC.FindFirstNPC(ModContent.NPCType<CaptainHalal>());
+            Main.LocalPlayer.AddBuff(BuffID.Regeneration, 300);
             switch (Main.rand.Next(3))
             {
                 case 0:
