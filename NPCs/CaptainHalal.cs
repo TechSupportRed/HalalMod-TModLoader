@@ -42,17 +42,9 @@ namespace HalalMod.NPCs
 
         public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
-            for (var i = 0; i < 255; i++)
-            {
-                Player player = Main.player[i];
-                foreach (Item item in player.inventory)
-                {
-                    if (item.type == ItemID.WoodenArrow)
-                    {
-                        return true;
-                    }
-                }
-            }
+        if (Main.hardMode) {
+        return true;
+        }
             return false;
         }
 
