@@ -41,9 +41,10 @@ namespace HalalMod.NPCs
 
         public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
-        if (Main.hardMode) {
-             return true;
-        }
+            if (Main.hardMode)
+            {
+                return true;
+            }
             return false;
         }
 
@@ -81,7 +82,6 @@ namespace HalalMod.NPCs
         public override string GetChat()
         {
             NPC.FindFirstNPC(ModContent.NPCType<Shelby>());
-            Main.LocalPlayer.AddBuff(BuffID.Regeneration, 300);
             switch (Main.rand.Next(3))
             {
                 case 0:

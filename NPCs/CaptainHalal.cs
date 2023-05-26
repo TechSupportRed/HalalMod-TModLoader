@@ -42,7 +42,7 @@ namespace HalalMod.NPCs
         public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
         if (Main.hardMode) {
-        return true;
+                return true;
         }
             return false;
         }

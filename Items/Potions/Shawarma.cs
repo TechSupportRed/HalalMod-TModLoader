@@ -26,13 +26,7 @@ namespace HalalMod.Items.Potions
 			Item.potion = true;
 			Item.consumable = true;
 			Item.healLife = 150;
+			Item.maxStack = 999;
 		}
-
-		public override void AddRecipes()
-		{
-			Recipe recipe = CreateRecipe();
-			recipe.Register();
-		}
-
 	}
 }
