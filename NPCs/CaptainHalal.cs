@@ -20,7 +20,6 @@ namespace HalalMod.NPCs
         {
             NPC.townNPC = true;
             NPC.friendly = true;
-            Main.hardMode = true;
             NPC.width = 20;
             NPC.height = 20;
             NPC.aiStyle = 7;
