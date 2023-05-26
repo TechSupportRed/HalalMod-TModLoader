@@ -1,20 +1,20 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using HalalMod.Items;
-using HalalMod.Items.Potions;
+using HalalMod.Items.Weapons;
 
 namespace HalalMod.NPCs
 {
     [AutoloadHead]
-    public class Shelby : ModNPC
+    public class CaptainHalal : ModNPC
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Shelby's Shawarma");
+            DisplayName.SetDefault("CaptainHalal");
         }
         public override void SetDefaults()
         {
@@ -56,14 +56,13 @@ namespace HalalMod.NPCs
             return false;
         }
 
-
         public override List<string> SetNPCNameList()
         {
             return new List<string>()
             {
-                "Galagoon",
-                "Shelby",
-                "Somesing beddar"
+                "Captain Halal",
+                "Friggiigigi",
+                "Number One Galagoon Fan"
             };
         }
 
@@ -83,24 +82,24 @@ namespace HalalMod.NPCs
 
         public override void SetupShop(Chest shop, ref int nextSlot)
         {
-            shop.item[nextSlot].SetDefaults(ModContent.ItemType<Shawarma>());
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<Detonator>());
             shop.item[nextSlot].value = 50;
         }
 
         public override string GetChat()
         {
             NPC.FindFirstNPC(ModContent.NPCType<Shelby>());
-            Main.LocalPlayer.AddBuff(BuffID.Regeneration, 300);
+            Main.LocalPlayer.AddBuff(BuffID.Regeneration, 1800);
             switch (Main.rand.Next(3))
             {
                 case 0:
-                    return "Ehhh... I will give you somesing beddar";
+                    return "No kiss before marriage!";
                 case 1:
-                    return "Za best in za west!";
+                    return "You should get the PrayStation 5!";
                 case 2:
-                    return "My friend! Don't forget za bebsi";
+                    return "I'm literally Dr. Zakir Naik";
                 default:
-                    return "My friend! If it's not right, it's not right!";
+                    return "Ya allah, say wallahi inshallah to lie";
             }
         }
 

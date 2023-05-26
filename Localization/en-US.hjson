@@ -19,6 +19,22 @@ Mods: {
 							LikeNPC_Princess: I like za {NPCName}.
 							Princess_LovesNPC: I like za {NPCName}.
 						}
+
+						CaptainHalal: {
+							Content: Thank you for giving me a prayer room
+							NoHome: Enshallah I will get a house
+							FarFromHome: Shaytan led me here, please lead me back
+							LoveSpace: I love Allah only, he is my true savior
+							DislikeCrowded: So many shaytan's around me
+							HateCrowded: Shaytan is in my detector
+							LoveBiome: Enshallah this biome is really good
+							LikeBiome: This biome is really cool, allah thinks this too, my name is Dr. Zakir Naik
+							DislikeBiome: Don't place me in the shaytan biome
+							HateBiome: This is where Shaytan lives
+							LoveNPC: I like being near Shelby
+							LikeNPC: I like being near Shelby
+							HateNPC: I hate Druad, astafgurallah haram
+						}
 				}
 		}
 }
